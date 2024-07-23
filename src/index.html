@@ -8,55 +8,88 @@
 </head>
 <body>
     <div id="root">
-        <h1>FlexBox</h1>
-
-        <h2>space-around</h2>
-        <div class="box__container box__container--around">
-            <div class="box">Box 1</div>
-            <div class="box">Box 2</div>
-            <div class="box">Box 3</div>
+       <header>
+           <div class="container">
+               <h2>Logo</h2>
+               <nav>
+                   <a href="#sobre">Sobre</a>
+                   <a href="#produtos">Produtos</a>
+                   <a href="#contato">Contato</a>
+               </nav>
+           </div>
+       </header>
+       <section id="sobre">
+           <div class="container">
+                <aside>
+                    <div id="localizacao"></div>
+                </aside>
+                <article>
+                    <h1>Sobre nós</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsa suscipit magnam tempora quas, consequatur, fugiat molestiae repudiandae quidem facere id aperiam deleniti voluptate voluptatum exercitationem perspiciatis totam hic temporibus!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio libero illum esse nemo deleniti exercitationem laborum facilis voluptates doloremque expedita, minus iure minima nam id cum fuga! Officiis, at placeat!</p>
+                </article>
+           </div>
+       </section>
+       <section id="produtos">
+        <div class="container">
+            <h1>Catálago</h1>
+            <div class="vitrine">
+                <div class="vitrine_item">
+                    <h3 class="vitrine_produto">Produto 1</h3>
+                    <div class="vitrine_image"></div>
+                    <p class="vitrine_desc"></p>
+                    <a href="" class="vitrine_button">Ver detalhes</a>
+                </div>
+                <div class="vitrine_item">
+                    <h3 class="vitrine_produto">Produto 2</h3>
+                    <div class="vitrine_image"></div>
+                    <p class="vitrine_desc"></p>
+                    <a href="" class="vitrine_button">Ver detalhes</a>
+                </div>
+                <div class="vitrine_item">
+                    <h3 class="vitrine_produto">Produto 3</h3>
+                    <div class="vitrine_image"></div>
+                    <p class="vitrine_desc"></p>
+                    <a href="" class="vitrine_button">Ver detalhes</a>
+                </div>
+                <div class="vitrine_item">
+                    <h3 class="vitrine_produto">Produto 4</h3>
+                    <div class="vitrine_image"></div>
+                    <p class="vitrine_desc"></p>
+                    <a href="" class="vitrine_button">Ver detalhes</a>
+                </div>
+                <div class="vitrine_item">
+                    <h3 class="vitrine_produto">Produto 5</h3>
+                    <div class="vitrine_image"></div>
+                    <p class="vitrine_desc"></p>
+                    <a href="" class="vitrine_button">Ver detalhes</a>
+                </div>
+                <div class="vitrine_item">
+                    <h3 class="vitrine_produto">Produto 6</h3>
+                    <div class="vitrine_image"></div>
+                    <p class="vitrine_desc"></p>
+                    <a href="" class="vitrine_button">Ver detalhes</a>
+                </div>
+            </div>
         </div>
+       </section>
+       <section id="contato">
+        <div class="container">
+            <h1>Contato</h1>
 
-        <h2>space-between</h2>
-        <div class="box__container box__container--between">
-            <div class="box">Box 1</div>
-            <div class="box">Box 2</div>
-            <div class="box">Box 3</div>
         </div>
-
-        <h2>space-evenly</h2>
-        <div class="box__container box__container--evenly">
-            <div class="box">Box 1</div>
-            <div class="box">Box 2</div>
-            <div class="box">Box 3</div>
-        </div>
-
-        <h2>center</h2>
-        <div class="box__container box__container--center">
-            <div class="box">Box 1</div>
-            <div class="box">Box 2</div>
-            <div class="box">Box 3</div>
-        </div>
-
-
-        <h1>grid</h1> 
-        <div class="box__container box__container--grid">
-            <div class="box">Box 1</div>
-            <div class="box">Box 2</div>
-            <div class="box">Box 3</div>
-            <div class="box">Box 4</div>
-            <div class="box">Box 5</div>
-            <div class="box">Box 6</div>
-            <div class="box">Box 7</div>
-            <div class="box">Box 8</div>
-            <div class="box">Box 9</div>
-        </div>
-
-        <div class="box__container box__container--image">
-            <div class="box" id="building"></div>
-            <div class="box" id="notebook"></div>
-        </div>
-
+        <form class="contato">
+            <input type="text" placeholder="Nome" class="contato_input">
+            <input type="text" placeholder="Email" class="contato_input">
+            <button class="contato_button">Enviar</button>
+        </form>
+       </section>
+       <footer>
+            <div class="container">
+                <p>Loja x &copy; Todos os direitos reservados. <br>
+                <small>Desenvolvido por Maísa</small></p>
+            </div>
+       </footer>
 
     </div>
 </body>
